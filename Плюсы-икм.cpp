@@ -20,7 +20,7 @@ int main()
         cin >> chislo2;
     }
     cout << "-----------------------------------------------------" << endl;
-    while (comparelen(chislo1, chislo2) > 0)
+    while (comparelen(chislo1, chislo2) > 0)//до тех пор, пока первое число не станет меньше второго или не будет ему равно, будет производиться постоянное вычитание
     {
         chislo1 = Vichitanie(chislo1, chislo2);
     }
